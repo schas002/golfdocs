@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+
+
+
+
+  
+  <meta content="text/html; charset=Windows-1251" http-equiv="content-type"><title>Golfdocs</title></head><body>
+<span style="font-style: italic;"></span><a href="index.html">&#8592; come back</a> | <span style="font-weight: bold;">Golfdocs</span> - Pyth<br>
+
+<hr style="width: 100%; height: 2px;">
+<h3><span style="font-family: monospace;">+</span> - plus - addition</h3>
+<h4>Definition 1<br>
+</h4>
+Addition of two numbers. + in Python.<sup>[1]</sup><br>
+<span style="font-weight: bold;"></span>
+<h4>Definition 2</h4>
+Concatenation of two strings. + in Python.<sup>[1]</sup>
+<h4>Definition 3</h4>
+Concatenation of two lists. + in Python, however, cast to list.<sup>[1]</sup>
+<h4>Definition 4</h4>
+Append anything to the end of a list.<sup>[1]</sup>
+<h4>Definition 5</h4>
+Prepend anything to the beginning of a list.<sup>[1]</sup>
+<h4>Definition 6</h4>
+Append a number, cast to string, to the end of a string.<sup>[1]</sup>
+<h4>Definition 7</h4>
+Prepend a number, cast to string, to the beginning of a string.<sup>[1]</sup>
+<h4>Definition 8<br>
+</h4>
+Union of a set and a collection (any of string, list, set or dictionary).<sup>[1]</sup>
+<h4>Definition 9</h4>
+Union of a set and anything, enclosed in a set.<sup>[1]</sup>
+<h4>Synopsis</h4>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><span style="font-family: monospace;">+&lt;left side addend&gt;&lt;right side addend&gt;</span><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Where <span style="font-family: monospace;">&lt;left side addend&gt;</span> and <span style="font-family: monospace;">&lt;right side addend&gt;</span> depend on the definition.<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h4>Examples</h4>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><span style="font-family: monospace;">+2 2</span><br>
+      </td>
+      <td style="vertical-align: top;"><span style="font-family: monospace;">+"Hello, ""World!</span><br>
+      </td>
+      <td style="vertical-align: top;"><span style="font-family: monospace;">+,1 2,3 4</span><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><a href="http://pyth.herokuapp.com/?code=%2B2+2">Try it online!</a> Result:<br>
+      <div style="margin-left: 40px;">4<br>
+      </div>
+      </td>
+      <td style="vertical-align: top;"><a href="http://pyth.herokuapp.com/?code=%2B%22Hello%2C+%22%22World%21">Try it online!</a> Result:<br>
+      <div style="margin-left: 40px;">Hello, World!<br>
+      </div>
+      </td>
+      <td style="vertical-align: top;"><a href="http://pyth.herokuapp.com/?code=%2B%2C1+2%2C3+4">Try it online!</a> Result:<br>
+      <div style="margin-left: 40px;">[1, 2, 3, 4]<br>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><span style="font-family: monospace;">+,1 2 3</span></td>
+      <td style="vertical-align: top;"><span style="font-family: monospace;">+0,1 2</span></td>
+      <td style="vertical-align: top;"><span style="font-family: monospace;">+"#"1</span></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><a href="http://pyth.herokuapp.com/?code=%2B%2C1+2+3">Try it online!</a> Result:<br>
+
+      <div style="margin-left: 40px;">[1, 2, 3]<br>
+      </div>
+
+      </td>
+      <td style="vertical-align: top;"><a href="http://pyth.herokuapp.com/?code=%2B0%2C1+2">Try it online!</a> Result:<br>
+
+      <div style="margin-left: 40px;">[0, 1, 2]<br>
+      </div>
+
+      </td>
+      <td style="vertical-align: top;"><a href="http://pyth.herokuapp.com/?code=%2B%22%23%221">Try it online!</a> Result:<br>
+
+      <div style="margin-left: 40px;">#1<br>
+      </div>
+
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><span style="font-family: monospace;">+1"$</span><br>
+      </td>
+      <td style="vertical-align: top;"><span style="font-family: monospace;">+.{1.{2</span><br>
+      </td>
+      <td style="vertical-align: top;"><span style="font-family: monospace;">+.{1 2</span><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><a href="http://pyth.herokuapp.com/?code=%2B1%22%24">Try it online!</a> Result:<br>
+      <div style="margin-left: 40px;">1$<br>
+      </div>
+      </td>
+      <td style="vertical-align: top;"><a href="http://pyth.herokuapp.com/?code=%2B.%7B1.%7B2">Try it online!</a> Result:<br>
+      <div style="margin-left: 40px;">{1, 2}<br>
+      </div>
+      </td>
+      <td style="vertical-align: top;"><a href="http://pyth.herokuapp.com/?code=%2B.%7B1+2">Try it online!</a> Result:<br>
+      <div style="margin-left: 40px;">{1, 2}<br>
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h4>References</h4>
+<ol>
+  <li><a href="http://pyth.herokuapp.com/rev-doc.txt">pyth.herokuapp.com/rev-doc.txt</a><br>
+  </li>
+</ol>
+
+
+<hr style="width: 100%; height: 2px;"><span style="font-style: italic;">Fork
+this collection <a href="https://github.com/schas002/golfdocs">on
+GitHub</a>! </span>o/<br>
+
+<br>
+</body></html>

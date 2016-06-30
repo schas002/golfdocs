@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+
+
+  
+  <meta content="text/html; charset=Windows-1251" http-equiv="content-type"><title>Golfdocs</title></head><body>
+<span style="font-style: italic;"></span><a href="index.html">&#8592; come back</a> | <span style="font-weight: bold;">Golfdocs</span> - Pyth<br>
+
+<hr style="width: 100%; height: 2px;">
+<h3><span style="font-family: monospace;">.{</span> - dot opening brace, dot left brace - create set<br>
+</h3>
+<h4>Definition 1</h4>
+Convert a collection (any of string, list, set or dictionary) to set.<br>
+If any of the collection's elements are not hashable, convert <span style="font-style: italic;">all</span> elements to tuples <span style="font-style: italic;">and then</span> convert to set.<sup>[1]</sup><br>
+<h4>Definition 2</h4>
+Create a set containing a number.<sup>[1]</sup>
+<h4>Definition 3</h4>
+Create an empty set.<sup>[1]</sup>
+<h4>Synopsis</h4>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><span style="font-family: monospace;">.{&lt;item&gt;<br>
+</span></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;">Where <span style="font-family: monospace;">&lt;item&gt;</span> depends on the definition (it might not exist at all).<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Example</h4>
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><span style="font-family: monospace;">.{,1 2</span><br>
+      </td>
+      <td style="vertical-align: top;"><span style="font-family: monospace;">.{1</span><br>
+      </td>
+      <td style="vertical-align: top;"><span style="font-family: monospace;">.{</span><br>
+      </td>
+
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><a href="http://pyth.herokuapp.com/?code=.%7B%2C1+2">Try it online!</a> Result:<br>
+      <div style="margin-left: 40px;">{1, 2}<br>
+      </div>
+      </td>
+      <td style="vertical-align: top;"><a href="http://pyth.herokuapp.com/?code=.%7B1">Try it online!</a> Result:<br>
+      <div style="margin-left: 40px;">{1}<br>
+      </div>
+      </td>
+      <td style="vertical-align: top;"><a href="http://pyth.herokuapp.com/?code=.%7B">Try it online!</a> Result:<br>
+      <div style="margin-left: 40px;"><span style="font-family: monospace;">set()</span><br>
+      </div>
+      </td>
+
+    </tr>
+  </tbody>
+</table>
+<h4>References</h4>
+<ol>
+  <li><a href="http://pyth.herokuapp.com/rev-doc.txt">pyth.herokuapp.com/rev-doc.txt</a></li></ol>
+<hr style="width: 100%; height: 2px;"><span style="font-style: italic;">Fork
+this collection <a href="https://github.com/schas002/golfdocs">on
+GitHub</a>! </span>o/<br>
+
+<br>
+</body></html>
